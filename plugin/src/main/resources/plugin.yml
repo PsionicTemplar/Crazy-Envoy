@@ -2,7 +2,7 @@ name: CrazyEnvoy
 author: BadBones69
 main: me.badbones69.crazyenvoy.Main
 version: ${project.version}${build.number}
-api-version: 1.13
+api-version: 1.15
 description: A crazy crazyenvoy plugin.
 softdepend: [HolographicDisplays, Holograms, CMI, PlaceholderAPI, MVdWPlaceholderAPI, Multiverse-Core, MultiWorld, WorldEdit, WorldGuard]
 commands:

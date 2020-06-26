@@ -1,28 +1,9 @@
-# Crazy Envoy
-Source Code for Crazy Envoy
+Hi,
 
-## Build Status:
-[![Build Status](https://jenkins.badbones69.com/job/Crazy-Envoy/badge/icon)](https://jenkins.badbones69.com/job/Crazy-Envoy/)
- 
-## Latest Version:
-[![Latest Version](https://img.shields.io/badge/Latest%20Version-1.3.10-blue)](https://github.com/badbones69/Crazy-Envoy/releases/latest)
+I forked this and updated it for a friend for 1.15.2.
 
-## Jenkins: 
-https://jenkins.badbones69.com/job/Crazy-Envoy/
- 
-## Nexus:
-https://nexus.badbones69.com/#browse/browse:maven-releases:me%2Fbadbones69%2Fcrazyenvoy-plugin
+To use, export the .zip file into your plugins folder. For any support with commands, go back to the original creator.
 
-## Maven:
-```xml
-<repository>
-    <id>nexus</id>
-    <url>https://nexus.badbones69.com/repository/maven-releases/</url>
-</repository>
+Thanks!
 
-<dependency>
-    <groupId>me.badbones69</groupId>
-    <artifactId>crazyenvoy-plugin</artifactId>
-    <version>{Latest Version}</version>
-</dependency>
-```
+PsionicTemplar

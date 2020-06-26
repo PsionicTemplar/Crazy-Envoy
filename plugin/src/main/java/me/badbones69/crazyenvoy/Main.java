@@ -25,8 +25,7 @@ public class Main extends JavaPlugin implements Listener {
     
     private FileManager fileManager = FileManager.getInstance();
     private CrazyEnvoy envoy = CrazyEnvoy.getInstance();
-    
-    @Override
+
     public void onEnable() {
         String homeFolder = Version.isNewer(Version.v1_12_R1) ? "/Tiers1.13-Up" : "/Tiers1.12.2-Down";
         fileManager.logInfo(true)
@@ -62,7 +61,6 @@ public class Main extends JavaPlugin implements Listener {
         getCommand("envoy").setTabCompleter(new EnvoyTab());
     }
     
-    @Override
     public void onDisable() {
         for (Player player : Bukkit.getOnlinePlayers()) {
             if (EditControl.isEditor(player)) {
